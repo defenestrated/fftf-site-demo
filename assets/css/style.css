@@ -1,0 +1,174 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  color: rgb(255, 245, 128);
+  text-decoration:none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: rgb(96, 227, 255);
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("/assets/images/wave-placeholder.png") no-repeat center center;
+  background-size: cover;
+}
+
+.waves {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  min-width: 100%;
+  min-height:
+  width: auto;
+  height: auto;
+
+}
+
+.main section {
+  width: 80vw;
+  margin: 10vw;
+  padding: 5vw;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  font: normal 300 22px/1.5em 'Lato', sans-serif;
+  letter-spacing: 0.05em;
+  -webkit-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.2);
+}
+
+.main section #signup {
+  margin: 0 10vw;
+}
+
+.main section .content {
+  /* max-width: 800px; */
+  margin: auto;
+}
+.main section .content p {
+  /* max-width: 800px; */
+  margin-bottom: 2em;
+}
+
+.main section .content p strong {
+  font-weight: 900;
+}
+
+.main section h1 {
+    /* font: 'Teko', sans-serif; */
+  font: italic 900 80px 'Chivo', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -1.9em;
+  margin-bottom: 40px;
+}
+
+.main section h2 {
+  text-align: center;
+  max-width: 800px;
+  margin:auto;
+  font: normal 300 40px/1.3em 'Chivo', sans-serif;
+  color: rgb(255, 245, 128);
+  letter-spacing: -.025em;
+}
+
+.main section h2.subtitle {
+  font-weight: 700;
+  font-size: 44px;
+  color: white;
+  transition: color .3s;
+  padding: 1.5em 0;
+  margin-bottom: 2em;
+  letter-spacing: .05em;
+  /* text-transform:uppercase; */
+  border-bottom: 1px solid white;
+}
+.main section h2.subtitle:hover {
+  color: rgb(96, 227, 255);
+}
+
+.article-img {
+  width: 40vw;
+}
+
+.article-img .caption {
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.article-img img {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.1);
+}
+
+.left-img {
+  float: left;
+  margin: 0 4em 2em -10vw;
+  text-align:right;
+}
+
+.right-img {
+  float: right;
+  margin: 0 -10vw 2em 4em;
+  text-align:left;
+}
+
+#petition {
+  max-width: 400px;
+  margin: 2em auto;
+}
+
+#petition input {
+  width:100%;
+  height: 2em;
+  font: inherit;
+  padding: .2em .5em;
+  border:none;
+  background: rgba(255,255,255,0.4);
+  transition: .3s all;
+  margin-bottom: 1em;
+}
+#petition input:focus {
+  background: rgba(255,255,255,0.6)
+}
+
+#petition input[type=submit] {
+  margin-top: 1em;
+  height:3em;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  cursor:pointer;
+  background:rgb(255, 245, 128);
+}
+
+#petition input[type=submit]:hover {
+  background:rgb(96, 227, 255);
+}

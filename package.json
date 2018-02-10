@@ -1,0 +1,29 @@
+{
+  "name": "fftf-site-demo",
+  "version": "1.0.0",
+  "description": "work sample for fight for the future",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "start": "budo assets/js/index.js:assets/js/bundle.js --live --verbose --port 3000 --open",
+    "deploy": "browserify assets/js/index.js | uglifyjs > assets/js/bundle.js && ghpages",
+    "ghpages": "ghpages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defenestrated/fftf-site-demo"
+  },
+  "author": "defenestrated",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defenestrated/fftf-site-demo/issues"
+  },
+  "homepage": "https://github.com/defenestrated/fftf-site-demo#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "ghpages": "0.0.10"
+  }
+}
