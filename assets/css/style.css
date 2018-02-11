@@ -46,7 +46,7 @@ a:hover {
   min-height:
   width: auto;
   height: auto;
-   background: url("../images/wave-placeholder.png") no-repeat center center;
+  background: url("../images/wave-placeholder.png") no-repeat center center;
   background-size: cover;
 
 }
