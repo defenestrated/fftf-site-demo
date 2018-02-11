@@ -2,8 +2,6 @@
 
 ## sam galison  //  2018
 
----
-
 ### development notes:
 
 - I really only had time to put together the HTML and CSS, so the primary site files are [index.html](index.html) and [style.css](assets/css/style.css)
